@@ -9,12 +9,14 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var wrapper = Wrapper()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        view.backgroundColor = .green
+        add(wrapper, frame: view.frame)
     }
-
 
 }
 
